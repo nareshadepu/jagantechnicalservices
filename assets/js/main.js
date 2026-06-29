@@ -372,6 +372,7 @@
             formInstance.submit(function() {
 
                 var action = $(this).attr('action');
+                var formData = $(this).serialize();
 
                 $("#message").slideUp(750, function() {
                     $('#message').hide();
@@ -380,12 +381,7 @@
                         .after('<img src="assets/img/ajax-loader.gif" class="loader" />')
                         .attr('disabled', 'disabled');
 
-                    $.post(action, {
-                            name: $('#name').val(),
-                            email: $('#email').val(),
-                            phone: $('#phone').val(),
-                            comments: $('#comments').val()
-                        },
+                    $.post(action, formData,
                         function(data) {
                             document.getElementById('message').innerHTML = data;
                             $('#message').slideDown('slow');
