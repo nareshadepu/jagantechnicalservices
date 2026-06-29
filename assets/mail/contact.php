@@ -1,4 +1,6 @@
 <?php
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
 if (!$_POST) exit;
 
@@ -69,22 +71,36 @@ if ($comments) {
 
 $e_reply = "You can contact $name via email: $email or phone: $phone";
 
-$msg = wordwrap($e_body . $e_content . $e_reply, 70);
+// Require Composer's autoloader
+require __DIR__ . '/../../vendor/autoload.php';
 
-$headers = "From: admin@jagantechnicalservices.ae" . PHP_EOL;
-$headers .= "Reply-To: $email" . PHP_EOL;
-$headers .= "MIME-Version: 1.0" . PHP_EOL;
-$headers .= "Content-type: text/plain; charset=utf-8" . PHP_EOL;
-$headers .= "Content-Transfer-Encoding: quoted-printable" . PHP_EOL;
+$mail = new PHPMailer(true);
 
-if (mail($address, $e_subject, $msg, $headers)) {
+try {
+    // Server settings
+    $mail->isSMTP();
+    $mail->Host       = 'smtp.hostinger.com';
+    $mail->SMTPAuth   = true;
+    $mail->Username   = 'admin@jagantechnicalservices.ae';
+    $mail->Password   = 'Jagantechnical@2026';
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+    $mail->Port       = 465;
 
-	// Email has sent successfully, echo a success page.
+    // Recipients
+    $mail->setFrom('admin@jagantechnicalservices.ae', 'JTS Website');
+    $mail->addAddress('admin@jagantechnicalservices.ae');
+    $mail->addReplyTo($email, $name);
 
+    // Content
+    $mail->isHTML(false);
+    $mail->Subject = $e_subject;
+    $mail->Body    = $e_body . $e_content . $e_reply;
+
+    $mail->send();
 	echo "<div class='alert alert-success'>";
 	echo "<h3>Email Sent Successfully.</h3>";
 	echo "<p>Thank you <strong>$name</strong>, your message has been submitted to us.</p>";
 	echo "</div>";
-} else {
-	echo '<div class="alert alert-error">Server Error: The mail server failed to send the email. If testing locally, this is normal. On a live server, ensure the From address exists.</div>';
+} catch (Exception $e) {
+	echo '<div class="alert alert-error">Server Error: The mail server failed to send the email. Mailer Error: ' . $mail->ErrorInfo . '</div>';
 }
