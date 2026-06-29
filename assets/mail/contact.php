@@ -28,7 +28,7 @@ if (trim($name) == '') {
 } else if (trim($phone) == '') {
 	echo '<div class="alert alert-error">You must enter your phone number.</div>';
 	exit();
-} else if (trim($comments) == '' && trim($subject_dropdown) == '' && trim($subject_dropdown) == 'Choose Subject') {
+} else if (trim($comments) == '' && (trim($subject_dropdown) == '' || trim($subject_dropdown) == 'Choose Subject')) {
 	echo '<div class="alert alert-error">Please select a service or enter a message.</div>';
 	exit();
 }
@@ -86,6 +86,5 @@ if (mail($address, $e_subject, $msg, $headers)) {
 	echo "<p>Thank you <strong>$name</strong>, your message has been submitted to us.</p>";
 	echo "</div>";
 } else {
-
-	echo 'ERROR!';
+	echo '<div class="alert alert-error">Server Error: The mail server failed to send the email. If testing locally, this is normal. On a live server, ensure the From address exists.</div>';
 }
