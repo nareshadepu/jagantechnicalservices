@@ -9415,3 +9415,31 @@ nav.navbar.bootsnav.bg-dark ul.nav>li>a:hover {
 		padding-bottom: 15px;
 	}
 }
+/* Form Alert Fixes */
+.alert-success {
+    background-color: #d4edda !important;
+    border-color: #c3e6cb !important;
+    color: #155724 !important;
+    padding: 20px !important;
+    border-radius: 5px !important;
+    margin-top: 20px !important;
+}
+.alert-success h3 {
+    color: #155724 !important;
+    font-size: 22px !important;
+    margin-bottom: 5px !important;
+    font-weight: 700 !important;
+}
+.alert-success p {
+    color: #155724 !important;
+    margin-bottom: 0 !important;
+}
+.alert-error {
+    background-color: #f8d7da !important;
+    border-color: #f5c6cb !important;
+    color: #721c24 !important;
+    padding: 20px !important;
+    border-radius: 5px !important;
+    margin-top: 20px !important;
+}
+
