@@ -10,10 +10,11 @@ function isEmail($email)
 
 if (!defined("PHP_EOL")) define("PHP_EOL", "\r\n");
 
-$name     = $_POST['name'];
-$email    = $_POST['email'];
-$phone     = $_POST['phone'];
-$comments = $_POST['comments'];
+$name     = isset($_POST['name']) ? $_POST['name'] : '';
+$email    = isset($_POST['email']) ? $_POST['email'] : '';
+$phone    = isset($_POST['phone']) ? $_POST['phone'] : '';
+$comments = isset($_POST['comments']) ? $_POST['comments'] : '';
+$subject_dropdown = isset($_POST['subject']) ? $_POST['subject'] : '';
 
 if (trim($name) == '') {
 	echo '<div class="alert alert-error">You must enter your name.</div>';
@@ -25,10 +26,10 @@ if (trim($name) == '') {
 	echo '<div class="alert alert-error">You must enter a valid email address.</div>';
 	exit();
 } else if (trim($phone) == '') {
-	echo '<div class="alert alert-error">Please fill all fields!</div>';
+	echo '<div class="alert alert-error">You must enter your phone number.</div>';
 	exit();
-} else if (trim($comments) == '') {
-	echo '<div class="alert alert-error">You must enter your comments</div>';
+} else if (trim($comments) == '' && trim($subject_dropdown) == '' && trim($subject_dropdown) == 'Choose Subject') {
+	echo '<div class="alert alert-error">Please select a service or enter a message.</div>';
 	exit();
 }
 
@@ -47,20 +48,30 @@ $address = "admin@jagantechnicalservices.ae";
 
 // Example, $e_subject = '$name . ' has contacted you via Your Website.';
 
-$e_subject = 'Contact Form';
+$e_subject = 'New Inquiry: ' . ($subject_dropdown ? $subject_dropdown : 'Contact Form');
 
 
 // Configuration option.
 // You can change this if you feel that you need to.
 // Developers, you may wish to add more fields to the form, in which case you must be sure to add them here.
 
-$e_body = "You have been contacted by $name, their additional message is as follows." . PHP_EOL . PHP_EOL;
-$e_content = "\"$comments\"" . PHP_EOL . PHP_EOL;
+$e_body = "You have received a new inquiry from $name." . PHP_EOL . PHP_EOL;
+
+if ($subject_dropdown && $subject_dropdown != 'Choose Subject') {
+    $e_body .= "Requested Service: $subject_dropdown" . PHP_EOL . PHP_EOL;
+}
+
+if ($comments) {
+    $e_content = "Message: \"$comments\"" . PHP_EOL . PHP_EOL;
+} else {
+    $e_content = "";
+}
+
 $e_reply = "You can contact $name via email: $email or phone: $phone";
 
 $msg = wordwrap($e_body . $e_content . $e_reply, 70);
 
-$headers = "From: naresh.adepu20@gmail.com" . PHP_EOL;
+$headers = "From: admin@jagantechnicalservices.ae" . PHP_EOL;
 $headers .= "Reply-To: $email" . PHP_EOL;
 $headers .= "MIME-Version: 1.0" . PHP_EOL;
 $headers .= "Content-type: text/plain; charset=utf-8" . PHP_EOL;

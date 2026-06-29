@@ -199,12 +199,13 @@ include 'header.php';
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="form-group">
-                                        <select>
-                                            <option value="1">Chose Subject</option>
-                                            <option value="2">Computer Engineering</option>
-                                            <option value="4">Accounting Technologies</option>
-                                            <option value="5">Web Development</option>
-                                            <option value="6">Machine Language</option>
+                                        <select name="subject" class="form-control">
+                                            <option value="Choose Subject">Choose Subject</option>
+                                            <option value="Residential Cleaning">Residential Cleaning</option>
+                                            <option value="Commercial Cleaning">Commercial Cleaning</option>
+                                            <option value="Deep Cleaning">Deep Cleaning</option>
+                                            <option value="Move In/Out Cleaning">Move In/Out Cleaning</option>
+                                            <option value="Other">Other</option>
                                         </select>
                                     </div>
                                 </div>
