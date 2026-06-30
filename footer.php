@@ -11,9 +11,9 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6 item">
                         <div class="f-item about">
-                            <img src="assets/img/logo-light.svg" alt="Jagan Technical Services Logo">
+                            <img src="assets/img/logo-light.svg" alt="Jagan Kasarapu Technical and Cleaning Services Logo" style="height: 100px; width: auto; margin-left: -10px;">
                             <p>
-                                Jagan Technical Services provides top-tier home and commercial cleaning solutions in Dubai, ensuring a spotless and healthy environment for everyone.
+                                Jagan Kasarapu Technical and Cleaning Services provides top-tier home and commercial cleaning solutions in Dubai, ensuring a spotless and healthy environment for everyone.
                             </p>
                             <form action="#">
                                 <input type="email" placeholder="Your Email" class="form-control" name="email">
@@ -109,7 +109,7 @@
                 <div class="footer-bottom-box">
                     <div class="row">
                         <div class="col-lg-6" style="display: flex; align-items: center;">
-                            <p style="margin: 0; line-height: 1;">&copy; Copyright 2026. All Rights Reserved by <a href="#">Jagan Technical Services</a></p>
+                            <p style="margin: 0; line-height: 1;">&copy; Copyright 2026. All Rights Reserved by <a href="#">Jagan Kasarapu Technical and Cleaning Services L.L.C</a></p>
                         </div>
                         <div class="col-lg-6" style="display: flex; align-items: center; justify-content: flex-end;">
                             <span style="margin-right: 10px; line-height: 1; margin-bottom: 0;">Designed By</span>

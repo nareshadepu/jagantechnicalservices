@@ -9416,7 +9416,7 @@ nav.navbar.bootsnav.bg-dark ul.nav>li>a:hover {
 	}
 }
 /* Form Alert Fixes */
-.alert-success {
+div.alert-success {
     background-color: #d4edda !important;
     border-color: #c3e6cb !important;
     color: #155724 !important;
@@ -9424,17 +9424,17 @@ nav.navbar.bootsnav.bg-dark ul.nav>li>a:hover {
     border-radius: 5px !important;
     margin-top: 20px !important;
 }
-.alert-success h3 {
+div.alert-success h3 {
     color: #155724 !important;
     font-size: 22px !important;
     margin-bottom: 5px !important;
     font-weight: 700 !important;
 }
-.alert-success p {
+div.alert-success p {
     color: #155724 !important;
     margin-bottom: 0 !important;
 }
-.alert-error {
+div.alert-error {
     background-color: #f8d7da !important;
     border-color: #f5c6cb !important;
     color: #721c24 !important;

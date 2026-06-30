@@ -8,10 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php
     // Default SEO values if not set
-    $default_title = "Jagan Technical Services - Home & Commercial Cleaning Dubai";
-    $default_desc = "Jagan Technical Services provides professional home and commercial cleaning services in Dubai. Book our expert cleaners today.";
+    $default_title = "Jagan Kasarapu Technical and Cleaning Services L.L.C - Home & Commercial Cleaning Dubai";
+    $default_desc = "Jagan Kasarapu Technical and Cleaning Services L.L.C provides professional home and commercial cleaning services in Dubai. Book our expert cleaners today.";
     
-    $seo_title = isset($page_title) ? $page_title . " - Jagan Technical Services" : $default_title;
+    $seo_title = isset($page_title) ? $page_title . " - Jagan Kasarapu Technical and Cleaning Services L.L.C" : $default_title;
     $seo_desc = isset($meta_description) ? $meta_description : $default_desc;
     
     // Get current URL for Open Graph
@@ -28,7 +28,7 @@
     <meta property="og:title" content="<?php echo $seo_title; ?>">
     <meta property="og:description" content="<?php echo $seo_desc; ?>">
     <meta property="og:image" content="https://jagantechnicalservices.ae/assets/img/logo.png">
-    <meta property="og:site_name" content="Jagan Technical Services">
+    <meta property="og:site_name" content="Jagan Kasarapu Technical and Cleaning Services L.L.C">
 
     <!-- ========== Twitter Card ========== -->
     <meta name="twitter:card" content="summary_large_image">
@@ -119,7 +119,7 @@
                         <i class="fa fa-bars"></i>
                     </button>
                     <a class="navbar-brand" href="/">
-                        <img src="assets/img/logo.svg" class="logo" alt="Jagan Technical Services Logo" style="height: 65px; width: auto; max-width: 100%;">
+                        <img src="assets/img/logo.svg" class="logo" alt="Jagan Kasarapu Technical and Cleaning Services Logo" style="height: 90px; width: auto; max-width: 100%;">
                     </a>
                 </div>
                 <!-- End Header Navigation -->
@@ -128,7 +128,7 @@
                 <div class="collapse navbar-collapse" id="navbar-menu">
 
                     <div class="collapse-header">
-                        <img src="assets/img/logo.svg" alt="Jagan Technical Services Logo" style="height: 60px; width: auto;">
+                        <img src="assets/img/logo.svg" alt="Jagan Kasarapu Technical and Cleaning Services Logo" style="height: 80px; width: auto;">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                             <i class="fa fa-times"></i>
                         </button>

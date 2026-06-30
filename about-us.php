@@ -1,6 +1,6 @@
 <?php
 $page_title = "About Us";
-$meta_description = "Learn about Jagan Technical Services. We are a trusted home and commercial cleaning company in Dubai with experienced staff and a commitment to quality.";
+$meta_description = "Learn about Jagan Kasarapu Technical and Cleaning Services. We are a trusted home and commercial cleaning company in Dubai with experienced staff and a commitment to quality.";
 include 'header.php';
 ?>
 
@@ -40,10 +40,10 @@ include 'header.php';
                     </div>
                 </div>
                 <div class="col-lg-6 about-style-three">
-                    <h4 class="sub-heading">About Jagan Technical Services </h4>
+                    <h4 class="sub-heading">About Jagan Kasarapu Technical and Cleaning Services </h4>
                     <h2 class="heading">We are committed to giving <br> our best services</h2>
                     <p>
-                        At Jagan Technical Services, we take pride in delivering exceptional home and commercial cleaning solutions across Dubai. Our trained professionals use the best equipment and eco-friendly products to maintain your premises.
+                        At Jagan Kasarapu Technical and Cleaning Services, we take pride in delivering exceptional home and commercial cleaning solutions across Dubai. Our trained professionals use the best equipment and eco-friendly products to maintain your premises.
                     </p>
                     <ul>
                         <li>Service Monitoring</li>

@@ -1,6 +1,6 @@
 <?php
 $page_title = "Our Team";
-$meta_description = "Meet the dedicated and experienced team behind Jagan Technical Services. Our professionals are committed to delivering top-notch cleaning services across Dubai.";
+$meta_description = "Meet the dedicated and experienced team behind Jagan Kasarapu Technical and Cleaning Services. Our professionals are committed to delivering top-notch cleaning services across Dubai.";
 include 'header.php';
 ?>
 

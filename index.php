@@ -1,6 +1,6 @@
 <?php
 $page_title = "Home";
-$meta_description = "Jagan Technical Services provides top-rated home and commercial cleaning in Dubai. From deep cleaning to maid services, we guarantee a spotless space.";
+$meta_description = "Jagan Kasarapu Technical and Cleaning Services provides top-rated home and commercial cleaning in Dubai. From deep cleaning to maid services, we guarantee a spotless space.";
 include 'header.php';
 ?>
 
@@ -17,7 +17,7 @@ include 'header.php';
                                 <div class="content">
                                     <h2 data-animation="animated slideInRight">Professional <span>Cleaning Services in Dubai</span></h2>
                                     <p data-animation="animated slideInLeft">
-                                        Jagan Technical Services offers premium home and commercial cleaning solutions to keep your spaces spotless.
+                                        Jagan Kasarapu Technical and Cleaning Services offers premium home and commercial cleaning solutions to keep your spaces spotless.
                                     </p>
                                     <div class="video-button">
                                         <a href="https://www.youtube.com/watch?v=owhuBrGIOsE" class="popup-youtube video-btn theme"><i class="fal fa-play"></i>Our Story</a>
@@ -168,10 +168,10 @@ include 'header.php';
                     </div>
                 </div>
                 <div class="col-lg-6 about-style-three">
-                    <h4 class="sub-heading">About Jagan Technical Services</h4>
+                    <h4 class="sub-heading">About Jagan Kasarapu Technical and Cleaning Services</h4>
                     <h2 class="heading">Dedicated to a <br> cleaner Dubai</h2>
                     <p>
-                        At Jagan Technical Services, we take pride in delivering exceptional home and commercial cleaning solutions across Dubai. Our trained professionals use the best equipment and eco-friendly products to maintain your premises.
+                        At Jagan Kasarapu Technical and Cleaning Services, we take pride in delivering exceptional home and commercial cleaning solutions across Dubai. Our trained professionals use the best equipment and eco-friendly products to maintain your premises.
                     </p>
                     <ul>
                         <li>Service Monitoring</li>

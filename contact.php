@@ -1,6 +1,6 @@
 <?php
 $page_title = "Contact Us";
-$meta_description = "Get in touch with Jagan Technical Services. Located in Bur Dubai, we are ready to assist with all your home and commercial cleaning needs. Call us today!";
+$meta_description = "Get in touch with Jagan Kasarapu Technical and Cleaning Services. Located in Bur Dubai, we are ready to assist with all your home and commercial cleaning needs. Call us today!";
 include 'header.php';
 ?>
 
@@ -52,7 +52,7 @@ include 'header.php';
                         <div class="form-box">
                             <h2>Let's talk?</h2>
                             <p>
-                                Get in touch with Jagan Technical Services to schedule your next cleaning. We respond quickly!
+                                Get in touch with Jagan Kasarapu Technical and Cleaning Services to schedule your next cleaning. We respond quickly!
                             </p>
                             <form action="assets/mail/contact.php" method="POST" class="contact-form">
                                 <div class="row">
