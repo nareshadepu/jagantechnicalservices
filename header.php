@@ -74,7 +74,7 @@
                             <i class="fas fa-envelope-open-text"></i> admin@jagantechnicalservices.ae
                         </li>
                         <li>
-                            <i class="fas fa-clock"></i> Working Hours: 8:00 AM – 7:45 PM
+                            <i class="fas fa-clock"></i> Working Hours: 9:00 AM – 6:00 PM
                         </li>
                     </ul>
                 </div>
@@ -155,7 +155,7 @@
                                     </div>
                                     <div class="info">
                                         <p>Have any Questions?</p>
-                                        <h5><a href="mailto:admin@jagantechnicalservices.ae">+971 569809216</a></h5>
+                                        <h5 style="font-size: 15px;"><a href="tel:+971552437393">+971 552437393</a></h5>
                                     </div>
                                 </div>
                             </li>

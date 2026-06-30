@@ -83,7 +83,7 @@
                                         </div>
                                         <div class="content">
                                             <strong>Opening Hours:</strong>
-                                            8:00 AM – 7:45 PM
+                                            9:00 AM – 6:00 PM
                                         </div>
                                     </li>
                                     <li>
@@ -92,7 +92,8 @@
                                         </div>
                                         <div class="content">
                                             <strong>Phone:</strong>
-                                            <a href="tel:+971569809216">+971 569809216</a>
+                                            <a href="tel:+971552437393">Land line: 04 577 3090</a><br>
+                                            <a href="tel:+971552437393">+971 552437393</a> / <a href="tel:+971569809216">+971 569809216</a>
                                         </div>
                                     </li>
                                 </ul>

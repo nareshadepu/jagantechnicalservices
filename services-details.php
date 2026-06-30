@@ -120,7 +120,7 @@ include 'header.php';
                                 <p>
                                     We are here to help our customer any time. You can call on 24/7 To Answer Your Question.
                                 </p>
-                                <h2>+971 569809216</h2>
+                                <h2><a href="tel:+971552437393" style="color: white;">+971 552437393</a></h2>
                             </div>
                         </div>
                         <!-- Single Widget -->

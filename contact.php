@@ -42,7 +42,7 @@ include 'header.php';
                                 <li>
                                     <i class="fal fa-phone-alt"></i>
                                     <p>
-                                        +971 569809216 <br> admin@jagantechnicalservices.ae
+                                        Landline: 04 577 3090 <br> Ph: +971 552437393, +971 569809216 <br> admin@jagantechnicalservices.ae
                                     </p>
                                 </li>
                             </ul>
