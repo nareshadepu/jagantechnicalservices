@@ -108,13 +108,13 @@
             <div class="container">
                 <div class="footer-bottom-box">
                     <div class="row">
-                        <div class="col-lg-6">
-                            <p>&copy; Copyright 2026. All Rights Reserved by <a href="#">Jagan Technical Services</a></p>
+                        <div class="col-lg-6" style="display: flex; align-items: center;">
+                            <p style="margin: 0; line-height: 1;">&copy; Copyright 2026. All Rights Reserved by <a href="#">Jagan Technical Services</a></p>
                         </div>
-                        <div class="col-lg-6 d-flex align-items-center justify-content-end">
-                            <span style="margin-right: 8px;">Designed By</span>
+                        <div class="col-lg-6" style="display: flex; align-items: center; justify-content: flex-end;">
+                            <span style="margin-right: 10px; line-height: 1; margin-bottom: 0;">Designed By</span>
                             <a href="https://ndesigns.in/" target="_blank" style="display: flex; align-items: center;">
-                                <img src="https://ndesigns.in/wp-content/uploads/2025/01/Naresh-Logo-white.png" alt="NDesigns" style="height: 30px;">
+                                <img src="https://ndesigns.in/wp-content/uploads/2025/01/Naresh-Logo-white.png" alt="NDesigns" style="height: 30px; margin: 0; display: block;">
                             </a>
                         </div>
                     </div>
